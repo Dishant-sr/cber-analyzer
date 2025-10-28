@@ -21,7 +21,7 @@ public class Main {
                 switch (choice) {
                     case "1":
                         System.out.println("Starting analyzer... (Press Ctrl+C to stop)");
-                        SimpleTailer tailer = new SimpleTailer("/var/log/system.log", line -> {
+                        SimpleTailer tailer = new SimpleTailer("/Users/dishantsinghrathore/Desktop/cber-threat-log-analyzer/src/com/cber/analyzer/fake_auth.log", line -> {
                             LogEntry entry = LogParser.parse(line);
                             if (entry != null && analyzer.isSuspicious(entry)) {
                                 Alert alert = new Alert("Suspicious login pattern detected", entry);
@@ -37,7 +37,7 @@ public class Main {
 
                     case "3":
                          // call LogViewer, pass default file path (adjust as needed)
-                        String defaultLog = "/var/log/system.log";
+                        String defaultLog = "/Users/dishantsinghrathore/Desktop/cber-threat-log-analyzer/src/com/cber/analyzer/fake_auth.log";
                         LogViewer.showLogsInteractive(defaultLog);
                          break;
                          
