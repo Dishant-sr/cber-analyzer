@@ -1,0 +1,8 @@
+Oct 27 18:02:13 macbook sshd[2100]: Failed password for invalid user root from 192.168.1.10 port 22 ssh2
+Oct 27 18:02:15 macbook sshd[2100]: Failed password for invalid user admin from 192.168.1.10 port 22 ssh2
+Oct 27 18:02:17 macbook sshd[2100]: Failed password for invalid user test from 192.168.1.10 port 22 ssh2
+Oct 27 18:02:19 macbook sshd[2100]: Failed password for invalid user guest from 192.168.1.10 port 22 ssh2
+Oct 27 18:02:21 macbook sshd[2100]: Failed password for invalid user ubuntu from 192.168.1.10 port 22 ssh2
+Oct 27 18:02:23 macbook sshd[2100]: Failed password for invalid user admin from 192.168.1.10 port 22 ssh2
+Oct 27 18:02:25 macbook sshd[2100]: Accepted password for validuser from 192.168.1.11 port 22 ssh2
+Oct 27 18:02:26 macbook sshd[2100]: Failed password for invalid user guest from 192.168.1.10 port 22 ssh2
